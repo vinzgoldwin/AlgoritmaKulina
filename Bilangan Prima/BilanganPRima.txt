@@ -1,0 +1,17 @@
+read (input)
+
+count := 0
+
+for (i=1 to input) do begin
+
+  if (input mod i ==0) then begin
+
+     count++
+
+  end
+
+end for
+
+if (count==2) then write ("Bilangan prima")
+
+else write ("Bukan prima")
